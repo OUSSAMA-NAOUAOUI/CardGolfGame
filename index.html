@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title  style="color: white;padding-bottom: 20px;" >Golf Card Game</title>
+    <link rel="website icon" type="png" href="./images/logo-green.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+        <h1 style="color: white;padding-bottom: 20px;">the Golf Card Game</h1>
+        
+        <button class="start-game" id="start-game">Start Game</button>
+    
+
+        <div class="game-container">
+            <div class="player-area" id="player1">
+            <div class="card"><img src="./images/cardBackRed.png" alt=""></div>
+            <div class="card"><img src="./images/cardBackRed.png" alt=""></div>
+            <div class="card"><img src="./images/cardBackRed.png" alt=""></div>
+            <div class="card"><img src="./images/cardBackRed.png" alt=""></div>
+            <div class="card"><img src="./images/cardBackRed.png" alt=""></div>
+            <div class="card"><img src="./images/cardBackRed.png" alt=""></div>
+        </div>
+        
+        <div class="deck-area">
+             <div class="card cardLogo"><img src="./images/cards/1CLUB.png" alt=""></div>
+        </div>
+        
+        <div class="player-area" id="computer">
+            <div class="card computer"><img src="./images/cardBackRed.png" alt=""></div>
+            <div class="card computer"><img src="./images/cardBackRed.png" alt=""></div>
+            <div class="card computer"><img src="./images/cardBackRed.png" alt=""></div>
+            <div class="card computer"><img src="./images/cardBackRed.png" alt=""></div>
+            <div class="card computer"><img src="./images/cardBackRed.png" alt=""></div>
+            <div class="card computer"><img src="./images/cardBackRed.png" alt=""></div>
+        </div>
+    </div>
+    <div class="header-round-container">
+        <h2 class="round">Round&nbsp;<span class="badge">0</span></h2> <!-- we have 3 round -->
+        <h2 class="result" id="result"></h2>  <!-- the result is computer or player -->
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
